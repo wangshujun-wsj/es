@@ -1,0 +1,7 @@
+server:
+  port: 8081
+spring:
+  data:
+    elasticsearch:    #es配置
+      cluster-name: my-elasticsearch
+      cluster-nodes: 47.96.9.1:9300
